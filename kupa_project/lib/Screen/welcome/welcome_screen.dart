@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kupa_project/Screen/welcome/welcome_pages.dart';
+import 'package:kupa_project/Onboard/view/onboarding_page_view.dart';
 import 'package:kupa_project/constant.dart';
 
 class WelcomeScreen extends StatelessWidget {
@@ -17,7 +17,7 @@ class WelcomeScreen extends StatelessWidget {
         onPressed: () {
           Navigator.of(context).push(MaterialPageRoute(
             builder: (context) {
-              return const WelcomePage();
+              return const OnboardingPageView();
             },
           ));
         },

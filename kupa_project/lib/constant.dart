@@ -4,6 +4,7 @@ Color kPrimaryColor = const Color(0xff2d715a);
 Color kPrimaryLightColor = const Color.fromARGB(255, 255, 255, 255);
 Color kPrimaryLight = const Color.fromARGB(255, 217, 231, 226);
 double kDefaulPadding = 20.0;
+double kBorderRadius = 20;
 final List<Map<String, dynamic>> GridMap = [
   {"title": "Lagman", "price": 250, "image": "assets/images/lagman1.jpg"},
   {"title": "Plov", "price": 300, "image": "assets/images/plov.jpeg"},

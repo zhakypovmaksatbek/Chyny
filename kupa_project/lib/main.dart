@@ -15,11 +15,14 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Kupa Food',
       theme: ThemeData(
+        
+          tabBarTheme: TabBarTheme(labelColor: kPrimaryColor,
+          ),
           appBarTheme: ThemeData().appBarTheme.copyWith(
-                backgroundColor: kPrimaryLightColor,
-                elevation: 0,
-                centerTitle: true,
-              ),
+              backgroundColor: kPrimaryLightColor,
+              elevation: 0,
+              centerTitle: true,
+              iconTheme: const IconThemeData(color: Colors.black)),
           primaryColor: kPrimaryColor,
           scaffoldBackgroundColor: kPrimaryLightColor),
       home: const WelcomeScreen(),
